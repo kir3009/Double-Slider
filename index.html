@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container" id="container">
+
+        <!--        Sign In-->
+        <div class="form-container sign-in-container">
+            <form action="#" class="form">
+                <h1 class="form-container__title">Create Account</h1>
+                <div class="form-container__icon">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span class="form-container__subtitle">or use your account</span>
+                <input class="form-container__pattern" type="text" placeholder="Name">
+                <input class="form-container__pattern" type="email" placeholder="Email">
+                <input class="form-container__pattern" type="password" placeholder="Password">
+                <button class="form-container__btn">Sign Up</button>
+            </form>
+        </div>
+
+        <!--        Sign Up-->
+        <div class="form-container sign-up-container">
+            <form action="#" class="form">
+                <h1 class="form-container__title">Sign in</h1>
+                <div class="form-container__icon">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span class="form-container__subtitle">or use your email for registration</span>
+                <input class="form-container__pattern" type="text" placeholder="Email">
+                <input class="form-container__pattern" type="text" placeholder="Password">
+                <a class="sign-up-container__forgot" href="#">Forgot your password?</a>
+                <button class="form-container__btn">Sign In</button>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+
+                <!--                Overlay Left-->
+                <div class="overlay-panel overlay-left">
+                    <h1 class="overlay-panel__title">Welcome Back!</h1>
+                    <p class="overlay-panel__text">To keep connected with us please login with your personal info</p>
+                    <button class="overlay-panel__btn" id="signIn">Sign In</button>
+                </div>
+
+                <!--                Overlay Right-->
+                <div class="overlay-panel overlay-right">
+                    <h1 class="overlay-panel__title">Hello, Friend!</h1>
+                    <p class="overlay-panel__text">Enter your personal details and start journey with us</p>
+                    <button class="overlay-panel__btn" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
